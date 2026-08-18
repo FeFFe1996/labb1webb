@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header navigation"
+    "menu content content"
+    "footer footer footer";
+}
+
+.container header.header{
+    grid-area: header;
+}
+
+.container .navigation{
+    grid-area: navigation;
+}
+
+.container section.menu{
+    grid-area: menu;
+}
+
+.container section.content {
+    grid-area: content;
+}
+
+.container footer.footer{
+    grid-area: footer;
+}
