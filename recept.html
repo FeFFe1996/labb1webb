@@ -16,7 +16,7 @@
                         <a href="index.html">Hem</a>
                     </li>
                     <li>
-                        <a href="receptlista.html">Recept</a>
+                        <a href="recept.html">Recept</a>
                     </li>
                 </ul>
             </nav>
@@ -26,6 +26,17 @@
         </section>
         <section class="content">
             <p>content</p>
+            <form>
+                <fieldset style="width: 500px;">
+                    <legend><h3>User Comment</h3></legend>
+                        <br><label for="rating">Rating: </label>
+                        <input type="range" min="0" max="5" value="0" oninput="this.nextElementSibling.value = this.value" style="accent-color: green;">
+                        <output>0</output><br>
+                        <label for="comment">Comment</label>
+                        <input type="text" min="10" max="250"><br>
+                        <input type="submit">
+                </fieldset>
+            </form>
         </section>
         <footer class="footer">
             <h3>footer</h3>
