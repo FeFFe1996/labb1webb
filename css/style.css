@@ -45,6 +45,16 @@ li{
     display: inline-block;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rebeccapurple;
+}
+
+
 h1{
       font-family: "Playfair Display", serif;
       font-size: 5rem;
