@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
+body{
+    margin: 0 auto;
+}
 .monsieur-la-doulaise-regular {
   font-family: "Monsieur La Doulaise", cursive;
   font-weight: 400;
@@ -22,6 +24,7 @@
 
 .container .navigation{
     grid-area: navigation;
+    background-color: #2D5A27;
 }
 
 .container section.menu{
@@ -49,4 +52,8 @@ h1{
 
 p{
     font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: #2D5A27;
 }
