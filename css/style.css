@@ -13,9 +13,10 @@ body{
 .container{
     display: grid;
     grid-template-areas: 
-    "header header navigation"
-    "menu content content"
-    "footer footer footer";
+    "header header"
+    "navigation navigation"
+    "menu content"
+    "footer footer";
 }
 
 .container header.header{
