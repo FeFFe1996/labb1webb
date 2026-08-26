@@ -1,10 +1,11 @@
-[
-    {
-    "id": 1,
-    "recept": "pannkakor",
-    "rating": 0,
-    "portions": 4,
-    "ingredients": [{
+{ 
+    "recept": [
+        {
+        "id": 1,
+        "recept": "pannkakor",
+        "rating": 0,
+        "portions": 4,
+        "ingredients": [{
             "name": "eggs",
             "measurment": "",
             "amount": 2
@@ -130,6 +131,7 @@
             "add salt and black pepper",
             "let the sauce simmer for about 10 minutes",
             "mix the pasta with the tomato sauce and serve"
-        ]
-    }
-]
+            ]
+        }
+    ]
+}
