@@ -3,6 +3,7 @@
 
 body{
     margin: 0 auto;
+    padding: 0;
 }
 .monsieur-la-doulaise-regular {
   font-family: "Monsieur La Doulaise", cursive;
@@ -11,18 +12,16 @@ body{
 }
 
 .container{
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "navigation navigation"
-    "menu content"
-    "footer footer";
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
 .container header.header{
     grid-area: header;
     height: 200px;
+    width: 100%;
     background-image: url("../img/congerdesign-kitchen-4785218.jpg");
     background-size:cover;
     background-position:center;
@@ -31,7 +30,18 @@ body{
 .container .navigation{
     grid-area: navigation;
     height: 50px;
+    width: 100%;
     background-color: #2D5A27;
+}
+
+.midWrapp {
+    display: grid;
+    grid-template-areas: "menu content";
+    grid-template-columns: 280px 1fr; 
+    max-width: 1200px; 
+    width: 90%;       
+    margin: 40px auto; 
+    flex: 1;           
 }
 
 nav{
@@ -45,34 +55,20 @@ nav ul{
     padding: 0;
 }
 
-.mainWrapper{
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1400px;
+.middle-wrapper section.menu {
+    grid-area: menu;
 }
 
-
-.container section.menu{
-    grid-area: menu;
-    width: 100%;
-    max-width: 400px;
+.middle-wrapper section.content {
+    grid-area: content;
 }
 
 .menu p{
     margin-left: 10px;
 }
 
-.container section.content {
-    width: 100%;
-    max-width: 1200px;
-    grid-area: content;
-}
-
 .container footer.footer{
     grid-area: footer;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     height: 100px;
     background-color: #2D5A27;
     width: 100%;
