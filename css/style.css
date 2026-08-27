@@ -19,17 +19,47 @@ body{
     "footer footer";
 }
 
+
 .container header.header{
     grid-area: header;
+    height: 200px;
+    background-image: url("../img/congerdesign-kitchen-4785218.jpg");
+    background-size:cover;
+    background-position:center;
 }
 
 .container .navigation{
     grid-area: navigation;
+    height: 50px;
     background-color: #2D5A27;
 }
 
+nav{
+    text-align: center;
+    font-size: 35px;
+}
+
+nav ul{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.mainWrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+}
+
+
 .container section.menu{
     grid-area: menu;
+    width: 100%;
+    max-width: 400px;
+}
+
+.menu p{
+    margin-left: 10px;
 }
 
 .container section.content {
@@ -40,6 +70,12 @@ body{
 
 .container footer.footer{
     grid-area: footer;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    background-color: #2D5A27;
+    width: 100%;
 }
 
 li{
@@ -59,6 +95,7 @@ a:hover{
 h1{
       font-family: "Playfair Display", serif;
       font-size: 5rem;
+      margin-left: 50px;
 }
 
 p{
