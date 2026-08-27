@@ -4,6 +4,7 @@
       "id": 1,
       "recept": "pannkakor",
       "rating": 0,
+      "ratingSum": 0,
       "portions": 4,
       "ingredients": [
         {
@@ -39,6 +40,7 @@
       "id": 2,
       "recept": "köttbullar",
       "rating": 0,
+      "ratingSum": 0,
       "portions": 4,
       "ingredients": [
         {
@@ -86,6 +88,7 @@
       "id": 3,
       "recept": "pasta med tomatsås",
       "rating": 0,
+      "ratingSum": 0,
       "portions": 4,
       "ingredients": [
         {
