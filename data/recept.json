@@ -1,137 +1,139 @@
-{ 
-    "recept": [
+{
+  "recept": [
+    {
+      "id": 1,
+      "recept": "pannkakor",
+      "rating": 0,
+      "portions": 4,
+      "ingredients": [
         {
-        "id": 1,
-        "recept": "pannkakor",
-        "rating": 0,
-        "portions": 4,
-        "ingredients": [{
-            "name": "eggs",
-            "measurment": "",
-            "amount": 2
-        }, 
-        {
-            "name": "flour",
-            "measurment": "dl",
-            "amount": 2
+          "name": "eggs",
+          "measurment": "",
+          "amount": 2
         },
         {
-            "name": "milk",
-            "measurment": "dl",
-            "amount": 4
+          "name": "flour",
+          "measurment": "dl",
+          "amount": 2
         },
         {
-            "name": "salt",
-            "measurment": "kryddmått",
-            "amount": 1
-        }],
-        "howto": [
-            "crack the eggs in a bowl", 
-            "add the flour", 
-            "add the milk", 
-            "mix together", 
-            "add butter to a pan and fry the on a medium to high heat"
-        ]
-    },
-    {
-        "id": 2,
-        "recept": "köttbullar",
-        "rating": 0,
-        "portions": 4,
-        "ingredients": [
-            {
-                "name": "ground beef",
-                "measurment": "g",
-                "amount": 500
-            },
-            {
-                "name": "breadcrumbs",
-                "measurment": "dl",
-                "amount": 1
-            },
-            {
-                "name": "milk",
-                "measurment": "dl",
-                "amount": 1
-            },
-            {
-                "name": "egg",
-                "measurment": "",
-                "amount": 1
-            },
-            {
-                "name": "salt",
-                "measurment": "kryddmått",
-                "amount": 2
-            },
-            {
-                "name": "black pepper",
-                "measurment": "kryddmått",
-                "amount": 1
-            }
-        ],
-        "howto": [
-            "mix the breadcrumbs and milk in a bowl",
-            "let the mixture rest for a few minutes",
-            "add the ground beef and egg",
-            "add salt and black pepper",
-            "mix everything together",
-            "shape the mixture into small balls",
-            "fry the meatballs in butter on medium heat until cooked through"
-        ]
-    },
-    {
-        "id": 3,
-        "recept": "pasta med tomatsås",
-        "rating": 0,
-        "portions": 4,
-        "ingredients": [
-            {
-                "name": "pasta",
-                "measurment": "g",
-                "amount": 400
-            },
-            {
-                "name": "crushed tomatoes",
-                "measurment": "g",
-                "amount": 400
-            },
-            {
-                "name": "onion",
-                "measurment": "",
-                "amount": 1
-            },
-            {
-                "name": "garlic cloves",
-                "measurment": "",
-                "amount": 2
-            },
-            {
-                "name": "olive oil",
-                "measurment": "msk",
-                "amount": 2
-            },
-            {
-                "name": "salt",
-                "measurment": "kryddmått",
-                "amount": 2
-            },
-            {
-                "name": "black pepper",
-                "measurment": "kryddmått",
-                "amount": 1
-            }
-        ],
-        "howto": [
-            "boil the pasta according to the instructions on the package",
-            "chop the onion and garlic",
-            "heat the olive oil in a pan",
-            "fry the onion and garlic until soft",
-            "add the crushed tomatoes",
-            "add salt and black pepper",
-            "let the sauce simmer for about 10 minutes",
-            "mix the pasta with the tomato sauce and serve"
-            ]
+          "name": "milk",
+          "measurment": "dl",
+          "amount": 4
+        },
+        {
+          "name": "salt",
+          "measurment": "kryddmått",
+          "amount": 1
         }
-    ]
+      ],
+      "howto": [
+        "crack the eggs in a bowl",
+        "add the flour",
+        "add the milk",
+        "mix together",
+        "add butter to a pan and fry the on a medium to high heat"
+      ]
+    },
+    {
+      "id": 2,
+      "recept": "köttbullar",
+      "rating": 0,
+      "portions": 4,
+      "ingredients": [
+        {
+          "name": "ground beef",
+          "measurment": "g",
+          "amount": 500
+        },
+        {
+          "name": "breadcrumbs",
+          "measurment": "dl",
+          "amount": 1
+        },
+        {
+          "name": "milk",
+          "measurment": "dl",
+          "amount": 1
+        },
+        {
+          "name": "egg",
+          "measurment": "",
+          "amount": 1
+        },
+        {
+          "name": "salt",
+          "measurment": "kryddmått",
+          "amount": 2
+        },
+        {
+          "name": "black pepper",
+          "measurment": "kryddmått",
+          "amount": 1
+        }
+      ],
+      "howto": [
+        "mix the breadcrumbs and milk in a bowl",
+        "let the mixture rest for a few minutes",
+        "add the ground beef and egg",
+        "add salt and black pepper",
+        "mix everything together",
+        "shape the mixture into small balls",
+        "fry the meatballs in butter on medium heat until cooked through"
+      ]
+    },
+    {
+      "id": 3,
+      "recept": "pasta med tomatsås",
+      "rating": 0,
+      "portions": 4,
+      "ingredients": [
+        {
+          "name": "pasta",
+          "measurment": "g",
+          "amount": 400
+        },
+        {
+          "name": "crushed tomatoes",
+          "measurment": "g",
+          "amount": 400
+        },
+        {
+          "name": "onion",
+          "measurment": "",
+          "amount": 1
+        },
+        {
+          "name": "garlic cloves",
+          "measurment": "",
+          "amount": 2
+        },
+        {
+          "name": "olive oil",
+          "measurment": "msk",
+          "amount": 2
+        },
+        {
+          "name": "salt",
+          "measurment": "kryddmått",
+          "amount": 2
+        },
+        {
+          "name": "black pepper",
+          "measurment": "kryddmått",
+          "amount": 1
+        }
+      ],
+      "howto": [
+        "boil the pasta according to the instructions on the package",
+        "chop the onion and garlic",
+        "heat the olive oil in a pan",
+        "fry the onion and garlic until soft",
+        "add the crushed tomatoes",
+        "add salt and black pepper",
+        "let the sauce simmer for about 10 minutes",
+        "mix the pasta with the tomato sauce and serve"
+      ]
+    }
+  ]
 }
