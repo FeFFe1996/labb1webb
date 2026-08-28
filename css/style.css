@@ -81,6 +81,7 @@ li{
 a{
     text-decoration: none;
     color: black;
+    font-size: 1.2rem;
 }
 
 a:hover{
