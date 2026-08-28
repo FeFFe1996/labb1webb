@@ -70,7 +70,7 @@ nav ul{
 
 .container footer.footer{
     grid-area: footer;
-    height: 100px;
+    height: 150px;
     background-color: #2D5A27;
     width: 100%;
 }
@@ -100,6 +100,7 @@ p{
     font-family: "Inter", sans-serif;
 }
 
-header{
-    background-color: #2D5A27;
+i{
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
