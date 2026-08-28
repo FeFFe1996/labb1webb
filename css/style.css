@@ -42,6 +42,7 @@ body{
     width: 90%;       
     margin: 40px auto; 
     flex: 1;           
+    justify-content: center;
 }
 
 nav{

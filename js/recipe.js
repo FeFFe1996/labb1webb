@@ -51,7 +51,7 @@ function renderRecipe(recipe) {
 
     
     const instructionsHTML = recipe.howto
-        .map(step => `<li>${step}</li><br>`)
+        .map((step, index) => `<li><Strong>Step ${index + 1}: </strong>${step}</li><br><br>`)
         .join('');
     
         detailContainer.innerHTML = `
