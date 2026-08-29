@@ -1,38 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0 auto;
     padding: 0;
     background-color: #F9F6F0;
 }
+
 .monsieur-la-doulaise-regular {
-  font-family: "Monsieur La Doulaise", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-
-.container header.header{
+.container header.header {
     grid-area: header;
     height: 200px;
     width: 100%;
     background-image: url("../img/congerdesign-kitchen-4785218.jpg");
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
 }
-
 
 .midWrapp {
     display: grid;
     grid-template-areas: "menu content";
-    grid-template-columns: 280px 1fr; 
+    grid-template-columns: 280px minmax(0, 1fr);; 
     max-width: 1200px; 
     width: 90%;       
     margin: 40px auto; 
@@ -40,96 +43,152 @@ body{
     justify-content: center;
 }
 
-.middle-wrapper section.menu {
+.midWrapp section.menu {
     grid-area: menu;
-    border: 2px solid black;
+    border: 2px solid #C87D55;
 }
 
-.middle-wrapper section.content {
+.midWrapp section.content {
     grid-area: content;
 }
 
-.content{
+.content {
     justify-content: center;
+    padding: 0 15px; 
+    min-width: 0;
 }
 
-.content article{
+.content article {
     margin-left: 20px;
 }
 
-.menu{
+.menu {
     border: 2px solid #C87D55;
     margin: 5px;
 }
 
-.menu p{
+.menu p {
     margin-left: 20px;
 }
 
-.menu h2{
+.menu h2 {
     text-align: center;
 }
 
-.container footer.footer{
+.container footer.footer {
     grid-area: footer;
     height: 120px;
     background-color: #C87D55;
     width: 100%;
+    padding: 0 20px;
 }
 
-li{
-    display: inline-block;
+ul, ol {
+    padding-left: 25px;
+    margin-left: 0;
+    list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: #3F3F47;
     font-size: 1.2rem;
 }
 
-a:hover{
+a:hover {
     color: #726056;
 }
 
-
-h1{
-      font-family: "Playfair Display", serif;
-      font-size: 5rem;
-      margin-left: 50px;
-      color: #6CC754;
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 6.5rem;
+    text-align: center;
+    
+    color: #C87D55;
+    margin: 0 auto;
 }
 
-p{
+p, strong {
     font-family: "Inter", sans-serif;
     color: #3F3F47;
 }
 
-h2{
-        color: #3F3F47;
-}
-
-h3{
-        color: #3F3F47;
-}
-
-h4{
-        color: #3F3F47;
-}
-
-strong{
+h2, h3, h4 {
     color: #3F3F47;
 }
 
-i{
+i {
     margin-right: 20px;
-    margin-bottom: 15px;
 }
 
-form{
-    width: 50px;
+form {
+    width: 100%;
+    max-width: 500px;
 }
 
-fieldset{
+fieldset {
     border-color: #C87D55;
-    width: 50px;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.icons{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container header.header {
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .midWrapp {
+        grid-template-areas: 
+            "menu"
+            "content";
+        grid-template-columns: 1fr;
+        width: 100%;
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .content article {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu {
+        margin: 0 0 20px 0;
+    }
+
+    ul, ol {
+        padding-left: 20px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container header.header {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
 }

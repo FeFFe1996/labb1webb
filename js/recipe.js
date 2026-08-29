@@ -85,6 +85,11 @@ function addRatingComment(){
         
         const userRating = parseFloat(elRating.value);
 
+        if (isNaN(userRating) || userRating < 1 || userRating > 5) {
+            alert("Please provide a valid rating between 1 and 5.");
+            return;
+        }
+
         currentRecipe.ratingSum += userRating;
         currentRecipe.ratingCount += 1;
 
