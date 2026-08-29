@@ -1,6 +1,6 @@
 const elForm = document.querySelector('#formReg');
 const elRating = document.querySelector('#rating');
-const elComment = document.querySelector('#comment');
+
 
 let currentRecipe = null; 
 let ratingScore = [];
@@ -84,7 +84,6 @@ function addRatingComment(){
         event.preventDefault();
         
         const userRating = parseFloat(elRating.value);
-        const userComment = elComment.value;
 
         currentRecipe.ratingSum += userRating;
         currentRecipe.ratingCount += 1;

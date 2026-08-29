@@ -4,6 +4,7 @@
 body{
     margin: 0 auto;
     padding: 0;
+    background-color: #F9F6F0;
 }
 .monsieur-la-doulaise-regular {
   font-family: "Monsieur La Doulaise", cursive;
@@ -27,12 +28,6 @@ body{
     background-position:center;
 }
 
-.container .navigation{
-    grid-area: navigation;
-    height: 50px;
-    width: 100%;
-    background-color: #2D5A27;
-}
 
 .midWrapp {
     display: grid;
@@ -45,33 +40,40 @@ body{
     justify-content: center;
 }
 
-nav{
-    text-align: center;
-    font-size: 35px;
-}
-
-nav ul{
-    margin: 0;
-    margin-top: 5px;
-    padding: 0;
-}
-
 .middle-wrapper section.menu {
     grid-area: menu;
+    border: 2px solid black;
 }
 
 .middle-wrapper section.content {
     grid-area: content;
 }
 
+.content{
+    justify-content: center;
+}
+
+.content article{
+    margin-left: 20px;
+}
+
+.menu{
+    border: 2px solid #C87D55;
+    margin: 5px;
+}
+
 .menu p{
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.menu h2{
+    text-align: center;
 }
 
 .container footer.footer{
     grid-area: footer;
-    height: 150px;
-    background-color: #2D5A27;
+    height: 120px;
+    background-color: #C87D55;
     width: 100%;
 }
 
@@ -81,12 +83,12 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #3F3F47;
     font-size: 1.2rem;
 }
 
 a:hover{
-    color: rebeccapurple;
+    color: #726056;
 }
 
 
@@ -94,13 +96,40 @@ h1{
       font-family: "Playfair Display", serif;
       font-size: 5rem;
       margin-left: 50px;
+      color: #6CC754;
 }
 
 p{
     font-family: "Inter", sans-serif;
+    color: #3F3F47;
+}
+
+h2{
+        color: #3F3F47;
+}
+
+h3{
+        color: #3F3F47;
+}
+
+h4{
+        color: #3F3F47;
+}
+
+strong{
+    color: #3F3F47;
 }
 
 i{
     margin-right: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+form{
+    width: 50px;
+}
+
+fieldset{
+    border-color: #C87D55;
+    width: 50px;
 }
