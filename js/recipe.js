@@ -85,8 +85,8 @@ function addRatingComment(){
         
         const userRating = parseFloat(elRating.value);
 
-        if (isNaN(userRating) || userRating < 1 || userRating > 5) {
-            alert("Please provide a valid rating between 1 and 5.");
+        if (isNaN(userRating) || userRating < 0 || userRating > 5) {
+            alert("Please provide a valid rating between 0 and 5.");
             return;
         }
 
